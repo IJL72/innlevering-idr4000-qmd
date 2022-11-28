@@ -1,3 +1,195 @@
+---
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
 # Deloppgave 3: Vitenskapsfilosofi
 
-<!-- Part 3: Philosophy of science -->
+
+
+1\.
+
+Popper ønsket å differensiere mellom vitenskap og pseudovitenskap.
+Den tradisjonelle ideen om at vitenskap skiller seg fra pseudovitenskap ved sin empiriske metode, hovedsakelig induktiv metode, mente han ikke var tydelig nok.
+Popper mente at det fundamentale i vitenskapelig teori er at den er falsifiserbar.
+Med dette menes ikke at teorien er falsk, men at teorien har bestemte forutsigelser som kan testes og muligvis avkreftes.
+En falsifiserbar teori kan altså muligvis være uriktig eller falsk, og den er ikke kompatibel med alle mulige utfall eller observasjoner.
+Popper mente at falsifisering kunne hjelpe oss å skille vitenskapelige teorier fra pseudovitenskaplige.
+Vitenskapelige teorier mente han pr definisjon er falsifiserbare, men om teorien er falsifisert, er den usann og skal derved ikke aksepteres.
+Poppers demarkasjonskriterium sier at en vitenskapelig teori er en falsifiserbar teori, og at en uvitenskapelig teori er ufalsifiserbar.
+Andre vitenskapsfilosofer er uenig i Poppers teori.
+Okasha påpeker at forskere sjelden forkaster tesen selv om noen data motbeviser den.
+Han mener det er nær umulig å finne en vitenskapelig teori som passer med alle data.
+Det er først når mengden data som er i konflikt med teorien er overveiende, man forkaster hypotesen.
+Han er også kritisk til Poppers forestilling om at vitenskap har en «essensiell natur».
+Okasha løfter et viktig spørsmål; «Er det mulig å finne et felles kriterie for hva som er vitenskap?»
+Han mener også at Poppers teori har en åpenbar svakhet.
+Målet ved vitenskapelig forskning er ikke alene å avkrefte teorier, men å finne og bekrefte nye.
+Målet for forskere, vil derfor være å finne støtte til egne teorier er sanne.
+For å gjøre det, må man til en viss grad benytte induktiv metode.\
+
+Popper brukte Freud og Marx som eksempler på pseudovitenskap.
+Han mente de bortforklarte alle data som ikke passet med egne teorier i stedet for å akseptere at teoriene ikke stemte.
+Okasha trekker frem at Adams og Leverrier, som begge samtidig, men hver for seg, fremmet teorien om at det måtte finnes en ekstra gravitasjonskraft som påvirket Uranus.
+De klarte å beregne seg frem til at det måtte finnes en planet til, og kort tid senere oppdaget man Neptun.
+Vitenskapsmennene forkastet ikke Newtons teori, selv om den hadde beregnet feil bane for Uranus, men klarte i stedet å forklare svakheten i teorien.
+Okasha mener derfor det vil være urett å anklage Marx for pseudovitenskap, om vi hyller Adams og Leverrier for deres vitenskap.
+
+I utgangspunktet mener jeg Poppers teori er god.
+Hvis en teori kan falsifiseres, uten at den blir falsifisert, vil den kunne være et godt utgangspunkt for videre studier.
+Problemet er at den ikke åpner for andre usikre variabler.
+Det å fremme en teori som passer all data er nærmest umulig.
+Vitenskaper er svært ulike, og det vil derfor være vanskelig å finne en måte å anskue dette på.
+Kunnskap utvikles i en sammenheng og må også ses i sammenheng.
+Jeg mener derfor Okashas tilgang er mest riktig.
+
+2\.
+
+Kjerne idéen i den hypotetiske-deduktive metoden er at vi bekrefter en teori gjennom å positive svar når vi tester teoriens deduktive konsekvenser.
+Man vil argumentere for en teori, i motsetning til falsifisering, hvor man vil argumentere mot teorier.
+Man starter med en teori, som enten oppstår i en «oppdagelseskontekst», hvor teorien er oppdage eller foreslått i vitenskapene, eller i en « begrunnelseskontekst», hvor den vitenskapelige teorien er bekreftet eller begrunnet av data.
+Deretter skal man utlede de empiriske konsekvenser fra teorien ved deduksjon.
+Disse konsekvensene skal så testes gjennom observasjoner eller eksperiment.
+Hvis de empiriske konsekvensene viser seg å være riktige, er teorien (induktivt) bekreftet til en viss grad.
+
+Eksempelvis har vi observert et sykdomsutbrudd i en populasjon.
+En teori kan være at sykdommen skyldes et virus.
+En deduksjon fra teorien vil være at (a) virus spres lettere enn infeksjoner av andre patogener, og at (b) man ikke kan kurere sykdommen med antibiotika.
+Observasjoner og eksperimenter viser at sykdommen både er (a) og (b).
+Vi har da induktivt fått bekreftelse på at sykdommen er forårsaket av et virus.
+
+Hempel beskriver i sin artikkel hvordan Semmelweis i Wien mellom 1844 og 1848 forsøkte å finne årsaken til en overdødelighet av barselfeber ved en av to fødeavdelinger ved Vienna General Hospital.
+Semmelweis fremmet ulike teorier som årsak til overdødeligheten.
+Disse avviste han etterhvert ved å vurdere de opp mot allerede kjente fakta, eller han gjennomførte ulike undersøkelser for å teste hypotesene.
+Til slutt fikk han en idé, som viste seg å være korrekt.\
+
+For et deduktivt valid argument gjelder at om premissene er sanne, er konklusjonen sann;
+
+Om T er sann (Det vil regne når det er overskyet) , da er E (Det regner) også sann.
+E er ikke sann(Det regner ikke ) T er ikke sann (Det regner ikke når det er overskyet)
+
+Et deduktivt usant (invalid) argument; når konklusjonen er usann, selv om premissene er sanne:
+
+Om T (Det vil regne når det er overskyet) er sann, da er E(Det regner) også sann E er sann (Det regner) T er sann ( Det regner når det er overskyet)
+
+Et av problemene med HD metoden er at teorien handler om sannsynlighet.
+Det er da ikke mulig å dedusere seg frem til en hyppighet av forekomst.
+Et annet problem, er at mange andre teorier kan passe like godt med dataene og at HD-metoden ikke tar høyde for dette.
+
+Abduksjon forsøker å løse problemet med HD-metoden, ved at den ikke bare krever at en teori forklarer dataen, men at den også gir bedre forklaringer enn andre tilgjengelige teorier.
+I abduksjon vil den logiske strukturen se slik ut:
+
+En teori (T) vil gi en plausibel forklaring på våre data D1, D2..
+Ingen tilgjengelig alternativ teori vil gi like god forklaring på D1, D2..
+T er bekreftet ( til en viss grad)
+
+En teori som forklarer flere forskjellige data og som utgår fra færre årsaker, anses å gi en bedre forklaring.
+
+3\.
+
+Med replikasjon menes å gjenta en undersøkelse/studie for å kontrollere om et tidligere forskningsresultat lar seg gjenskape - om resultatene blir de samme eller nære.
+De senere årene har replikasjon av tidligere studier fått en økt interesse, fordi det har vist seg at en rekke tidligere forskningsfunn har vært vanskelige å gjenskape.
+Begrepet «replikasjonskrisen» blir benyttet til å beskrive denne utfordringen med at foruroligende få studier lar seg replisere.
+Dette får betydning for tilliten vitenskapen har.
+Kan man stole på de funn som blir publisert?
+Innen medisin, har replikasjon stor betydning.
+Vi har sett at retningslinjer for behandling baserer seg på studier som kanskje flere år senere viser seg ikke å la seg replisere -- av ulike årsaker.
+Medisinalfirmaer står bak store, kostbare studier i utviklingen av nye medikamenter for alvorlige sykdommer som kreft og nervesykdommer.
+Når disse medikamentene blir godkjent fordi de har vist seg å ha effekt, oppstår det et krav og forventning om at disse skal gjøres tilgjengelig.
+Slike nyutviklede medikamenter er svært kostbare.
+Ved gjennomgang av studier innen onkologi, har det vist seg at kun 11% av studiene var repliserbare.
+Hva er årsaken til dette?
+
+Alexander Bird fremmer base-frekvens-bias som årsak til krisen.
+Base-frekvens-bias kan oppstå når man unnlater å vurdere forekomsten, eller frekvensen av hendelsen man undersøker i populasjonen.
+Bird viser at selv med en god test, vil sannsynligheten for et sant positivt svar være lav om pre-test sannsynligheten er lav.
+Selv om testmetoder og beregninger er utført korrekt, vil det være vanskelig å gjenskape de samme resultatene.
+Om hypotesen har en lav sannsynlighet for å være sann, vil man kunne få en høy andel positive resultater som i realiteten er falsk positive (Type-I-feil) i følge Wacholder et al. (\[2004\]) og Colhoun et al. (\[2003\]).
+Et eksempel på dette kan være screeningundersøkelser for bestemte sykdommer -- som regel kreft - i en populasjon.
+Selv om man har en god test, vil risikoen for å få falsk positive være høy, om den sykdommen man screener for har en lav insidens i populasjonsgruppen.
+Dette vil da kunne medføre unødvendig sykeliggjøring og komplikasjoner.
+
+Disse sannsynlighetene kan man beregne ved å benytte Bayes theorem;
+
+Sannsynligheten for å ha coloncancer hvis man tester positivt på screeningprøve (Tp) kan skrives matematisk som:
+
+P(CC\|Tp)
+
+Vi vet at:
+
+P(CC\|Tp) = P(CC)P(Tp\|CC)
+
+P(CC)P(Tp\|CC)!P
+(~CC)P(Tp\|~CC)
+
+Frekvensen av type-I-feil og type-II-feil gir oss;
+
+P(Tp\|CC) er sannsynligheten for å få falsk positivt resultat (=0,05) og
+
+P(Tp\|\~CC) er sannsynligheten for ikke å få et falsk negativt resultat (=0,95)
+
+Disse verdiene gir:
+
+P(CC\|Tp) = P(CC)x0,95 P(CC)x0,95!P
+(\~CC)x0,05
+
+Sannsynligheten for å ha coloncancer er (P(CC)).
+
+Sannsynligheten for ikke å ha coloncancer (P(\~CC) er 1 - (P(CC)).
+
+P(CC) er sannsynligheten for å ha coloncancer uansett hva testen viser, og defineres som basefrekvensen av coloncanser i populasjonen.
+
+Insidensraten av CC i Norge (2021) var 0,001.
+
+Sannsynligheten for at man har CC gitt en positiv test vil være P(CC\|Tp) = 0,001 x 0,95 0,001 x 0,95 !
+0,999x 0,05 ≈0,019 = 1,9%
+
+Bird trekker også frem tvilsom forskningspraksis som en del av replikasjonskrisen, for eksempel P-hacking eller juks med data.
+Jevnlig avdekkes juks i forskning.
+I 2010 måtte Milena Penkowa trekke seg fra sitt professorat ved Københavns Universitet, etter at det ble avdekket manipulering av forskningsdata helt tilbake til hennes doktoravhandling.\
+
+I juli i år publiserte tidsskriftet Science en artikkel om mulig omfattende forskningsjuks innenfor Alzheimer-forskning med utgangspunkt i en studie publisert i tidsskriftet Nature i 2006, som Bird også referer til i sin artikkel.
+Hva får forskere til å jukse?
+Som i andre felt er det mye prestisje og penger som står på spill.
+
+Lav statistisk styrke, menes også å kunne være en årsak til replikasjonskrisen.
+Med statistisk styrke menes sannsynligheten for at en test gir et resultat som gjør at man avviser en sann 0-hypotese, det vil si sannsynligheten for ikke å få et falsk negativt svar (Type-II-feil).
+Det betyr at man ikke klarer å påvise en effekt i studiet, men som egentlig er tilstede.
+Dette kan også skyldes at studieutvalget ikke var tilstrekkelig representativt for studiepopulasjonen, eller at den statistiske styrken var for liten til å identifisere en forskjell som statistisk signifikant.
+Større studier vil være mer representative.
+Ved små studier vil risikoen for at tilfeldigheter eller ukorrigerte bias påvirker resultatene være større.
+Noen ganger vil det være en utfordring å skaffe nok observasjonsgrunnlag, spesielt ved sjeldne tilstander/forekomster.
+Andre ganger kan økonomi og tidspress være en faktor.
+
+En siste ting Bird nevner som en mulig forklaring er Publikasjons-skjevhet.
+Med dette menes at negative resultater ikke blir publisert like ofte som positive resultater.
+Årsaken til dette kan både skyldes at forskere ikke ønsker publikasjon, men også at tidsskrift ikke publiserer disse data i like stor grad.
+Flere vitenskapsfilosofer (Heene\[2012\], Francis\[2012\], Pashler og Wagenmakers\[2012\], Romeo\[2016\]) har argumentert for dette, men Bird mener ikke dette kan være den eneste årsak til krisen.
+Både forskere og tidsskriftene har høy standard for kvalitet og har en høy terskel for statistisk signifikans.
+Dette vil medføre høy sannsynlighet for at et positivt resultat er sant.
+Ved teorier der det ikke foreligger annen publisert forskning, vil man ikke vite om dette skyldes om teorien er testet med negativt resultat, eller om teorien ikke er testet tidligere.
+
+Alle fremsatte mulige årsaker fremstår som plausible forklaringer på replikasjonskrisen.
+Som ved øvrige vitenskapsteorier, er det ikke en sannhet.
+Verden er kompleks.
+
+Litteraturliste:
+
+Hempel, Carl G.
+(1966) Scientific Inquiry; Invention and Test.
+\| C G Hempel, Philosophy of Natural Science (s.3-18) Princeton, Prentice Hall.
+
+Godfrey-Smith, P. (2003) Bayesianism and modern theories of evidence.
+\| P.
+Godfrey-Smith, Theory and Reality: An Introduction to the Philosophy of Science (s. 202-218) Chicago; University of Chicaago Press.
+
+Popper, K.
+(1969) Conjectures and Refutations; The Growth of Scientific Knowledge (3. Utg) London: Routledge.
+
+Bird, A.
+(2021) The British Journal for the Philosophy of Science, vol.72, nr. 4 December 2021
+
+Okasha S.
+(2016) Philosophy of Science, a very short introduction.
+(s. 1-70) second edition 2016, Oxford University press.

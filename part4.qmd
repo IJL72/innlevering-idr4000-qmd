@@ -1,3 +1,148 @@
 # Deloppgave 4: Studiedesign
 
-<!-- Part 4: Study designs -->
+---
+title: " Deloppgave 4  Study Designs"
+author: "INGER JOHANNE LØKKEVIK"
+date: "2022-11-22"
+output: html_document
+---
+
+
+
+Gjennom menstruasjonssyklus har kvinner i fertil alder svigninger i nivå av kjønnshormoner.  I Follikullærfasen dominerer østrogen og i lutealfasen  dominerer progesteron, selv om også østrogen har en peak da. Det har vært reist spørsmål om  disse fluktuasjoner i  hormonnivåer  har  inflytelse på kvinners fysiske prestasjoner.  Det  finnes noe  forskning på området hvor man har sett på muskelstyrke, VO2max og/eller laktat. Jeg har  tatt utgangspunkt i   fem orginalartikler fra kliniske forsøk hvor  man har sett på dette.  
+
+
+[1]. Eur J Appl Physiol. 2003 Nov;90(5-6):505-13. doi: 10.1007/s00421-003-0889-0. Epub 2003 Jul 26.
+Impact of menstrual cycle phase on the exercise status of young, sedentary women
+Leanne M Redman 1, Garry C Scroop, Robert J Norman
+
+[2]. Kathmandu Univ Med J (KUMJ).  2012 Oct-Dec;10(40):25-9. doi: 10.3126/kumj.v10i4.10990.
+Endurance capacity and cardiorespiratory responses in sedentary females during different phases of menstrual cycle
+A Bandyopadhyay 1, R Dalui
+
+[3]. European Journal of applied Physiology,  July 7th 1994,
+Effects of the menstrual cycle phase on the blood lactale responses to exercise.
+m.McCracken, B. Ainsworth, A.C. Hackney
+
+[4]. J Physiol.  1996 May 15;493 ( Pt 1)(Pt 1):267-72. doi: 10.1113/jphysiol.1996.sp021381.
+Changes in muscle strength, relaxation rate and fatiguability during the human menstrual cycle
+R Sarwar 1, B B Niclos, O M Rutherford
+
+[5]. Clinical Trial J Physiol.  2001 Jan 1;530(Pt 1):161-6. doi: 10.1111/j.1469-7793.2001.0161m.x.
+The influence of menstrual cycle phase on skeletal muscle contractile characteristics in humans
+X A Janse de Jonge 1, C R Boot, J M Thom, P A Ruell, M W Thompson
+
+
+###  Innledning
+
+Den overordnede problemstillingen i de aktuelle studiene er om hormonendringene gjennom menstruasjonssyklus har  inflytelse på  kvinners fysiske prestasjon, men i de fem studiene har tilgangen vært  ulik. Tre av studiene [1,2 og 3] har hovedfokus på  utholdenhet og kardiovaskulære aspekter, og to studier [4 og 5] har  undersøkt  muskelstyrke og kontraktile karakteristika.
+
+I  den første artikkelen [1]  fremmes en hypotese hvor man  tar utgangspunkt i at lipider er foretrukne  energikilde i lutealfase, og forventer da en korrelert  økning i  fysisk prestasjon. Dette begrunnes med at  serumverdiene  av østradiol [E2] og progesteron [P4] er lave i starten av follikulærfasen  og høye i lutealfasen.  Begge hormoner antas å kunne påvirke energisubstratomsetningen, termoregulering og væske-og elektrolyttbalansen, og forfatterne har derfor en teori om at  hormonendringene vil kunne påvirke  både treningskapasitet og - prestasjon. 
+Forfatterne  viser til sprikende resultater fra tidligere studier, og fremmer at bl.a  bruk av ulike studiedesign og  metoder til å fastsette  periodene i mensturasjonssyklus kan være medvirkende årsak til dette.  
+
+Også forfatternere bak artikkel [2] viser til store  sprik i  tidligere forskningsstudier og at enkelte har vist til forskjeller i laktat-respons, vekt, plasmavolum, hb, HR og ventilasjon. De presenterer ingen  egen hypotese, men formulerer at de ønsker å evaluere fluktuasjon i utholdenhetskapasiteten og  den cardiorespiratoriske prestasjon hos øst-indiske kvinner gjennom menstruasjonssyklus.
+
+Forfatterne bak  artikkel tre [3]   ønsker å finne ut om laktat nivået i forbindelse med intensiv løping  endret seg i ML og MF fasene og de fremmer spørsmålet om hvis dette er reelt, om  man da kan benytte laktatmålinger hos kvinnelige idrettsutøvere  for å monitorere  treningsintensiteten. Forfatterne  referer  til studier hvor man har vist at  hvile-lipid-metabolismen og glycogenlagringen er høyere i lutealfasen enn i follikuærfasen. Dette mener de skyldes høyere  østrogen-nivå under lutealfasen enn  i follikulærfasen.  Submaximal belastning, lipid mobilisering og - oxidering virker også til å være høyere i lutealfasen.
+
+Målet med  undersøkelsen i  fjerde artikkel[4] var å undersøke effekten av fasene i  menstruasjonssyklus på enkle styrketester i store muskelgrupper, og som da  har stor betydning for daglig funksjon. Forskerne kikket  også på forskjeller mellom menstruasjonsfaser og  bruk av  hormonelt prevensjonsmiddel (P-pille). Dette  er et interessant spørsmål, og man kunne med fordel ha benyttet p-pillebrukere som kontrollgruppe i flere studier. Etter menopausen hvor østrogennivået er lavt, ses  svekket muskelstyrke. Dette har fremmet hypotesen om at  østrogen påvirker skjelettmuskulatur.
+
+Også i  den femte  artikkelen [5] har man  undersøkt betydningen av menstruasjonssyklus på  skjelettmuskulaturens kontraktile karakteristika, men  forfatterne  poengterer viktigheten av  å måle hormonstatus, da  dette ikke ses gjørt i tidligere studier. Forskerne har målt muskelfunksjon når  østrogen- og progesteronverdiene var lave ( under menstruasjonen), når østrogennåvået var høyt og progesteron lavt (sen follikulærfase) og mens både østrogen- og progesteronnivået var høyt (lutealfasen). Dette gir en større sikkerhet for at  deltakerne er  testet på  det tidlspunktet i syklus man har antatt.
+Forfatterne trekker frem  utfordringene ved tidligere studier, blant annet feilkilder ved måling av voluntær styrke og usikre  syklusperioder, da  det ikke er tatt hormonprøver for å sikre at man tester på riktig antatt tidspunkt i syklus. Sammenhengen mellom  mensturasjonssyklus og styrke er fortsatt uklar og  de ønsker derfor å bidra til å belyse sammenhengen  bedre.
+
+### Teori
+
+Man kan inndele menstruasjonssyklus i fire faser; Den  tidlige follikulære fase, som starter ved  menstruasjonens  første blødningsdag, den sene follikullære fase, som strekker seg frem til eggløsning,  den tidlige luteale fase som starter ved eggløsning og den sene luteale fase som strekker seg frem til menstruasjonens første dag. 
+ 
+ Gjennom menstruasjonssyklus varierer serumverdiene av østradiol[E2] og progesteron [P4]. Østradiol er lav den  tidlige follikulære fase, men stiger  i  den sene follikulære fase  til et peak rett før  egggløsning hvor det faller brått.   I den sene luteale fase har  [E2] igjen en stigning og en litt mindre peak.  Progesteron er lav i hele den follikulære fase, men stiger kraftig etter eggløsning og er  høyest i den sene luteale fase. Østrogener har en svakere  proteinanabolsk effekt og den er mer vevsspesifikk  enn andosteroner. Man har likevel en antagelse at østrogener har en anabol effekt på skjelettmuskulatur også hos kvinner, da man ser en  muskelatrofi  etter overgangsalderen. 
+Østradiol påvirker også lipidmetabolismen.
+
+Det kan derfor være nærliggende å tenke at de hormonelle endringene også vil kunne ha betydning for  fysiologiske parametre og fysisk prestasjon. 
+
+Både  i artikkel [2] og [3] har forskerne  testet  deltakerne  i perioder av fasene hvor  man ikke forventer en  maksimal serumkonsentrasjon av hhv østrogen og progesteon.
+I artikkel [4] har man  valgt å sammenligne med en kontrollgruppe som bruker p-piller, der hormonnivåene er relativt konstante gjennom syklus. Hvis man pant en positiv korrelasjon  mellom styrke og  faser i menstruasjon som man ikke gjenfinner hos p-pillebrukere, vil dette også kunne gi viktig informasjon om p-pillebrukere. 
+
+Teorien om at  østrogen er  anabol for skjelettmuskulatur,  er  nærliggende da det  ses en betydelig   muskelsvekkelse hos kvinner etter overgangsalderen.  Vi vet at produksjon av  østrogen faller gradvisgjennom klimakteriet. Men det skjer også andre hormonelle forandringer, og vi VET altså ikke om det er østrogen som er den ene årsaken til muskelsvinn.
+
+
+### Metode
+
+Metodene og designet i de fem studiene  har flere likhetstrekk, men også forskjeller.  Studiedesignet i artikkel [1], [2], [3] og [5] er longitudinel kohort-studie med  oppfølgingstid på  to sykluser ( ca 8 uker). Man følger da et utvalg - en kohort - gjennom en periode, hvor man gjør observasjoner.  Det gjennomføres ingen intervensjoner i disse studiene. Observasjonene vil fortelle oss om  det er signifikant forskjell  i de variablene vi måler  på de   gitte  tidspunkt.
+Studiet bak artikkel [3] er også randomisert, da  rekkefølgen fasene de ble testet i ble randomisert. Med randomisering menes at det gjøres et tilfeldig utvalg.
+Studiedesignet i  artikkel [4] er case-control, hvor casegruppen er deltagere med normal menstruasjonssyklus og kontrollgruppen er p-pillebrukere. Intervensjonen er da  den naturlige hormonelle fluktuasjon. Oppfølgingstiden er 8  uker.  I case-kontroll-studier  følger man to (eller flere) grupper som utsettes for ulike intervensjoner.  Som regel vil  case-gruppen utsettes for en intervensjon og ikke kontrollgruppen. I dette studiet kunne man også valgt  å snu rundt og kalt p-pillegruppen intervensjonsgruppe,  og kvinnene med normal mensturasjonssyklus kontroll og da sett på eventuelle  treningsfysiologiske parametre hos kvinner som bruker p-piller.
+En oppfølgingstid på to sykler forekommer noe kort. Det er  vanskelig å treffe presist ift riktig fase og hormonnivå, og ved å utvide  observasjonstiden til  tre sykler, vil man  få større treffsikkerhet.
+
+
+I det første studiet ble  syvogtyve  friske, utrente kvinner med normal menstruasjonssyklus  rekruttert gjennom annonsering.  De måtte utfylle et  spørreskjema vedrørende generell og gynekologisk helse, og 16 kunne etter dette inkluderes i studien.  Deltakerne  hadde normal menstruasjonssyklus,  var utrente, ikke-røykende og var ikke gravide eller hadde brukt hormonell prevensjon de  siste 6 mndr før studiens start. En av deltakerne  trakk seg pga sykdom og en deltaker ble ekskludert pga hy VO2max  som indikerte at hun ikke var  utrent.  Studiestørrelsen er da relativt liten med 14 deltakere. 
+Kohorten  er en relativt god representasjon av  bakgrunnsbefolkningen, men utelukker andelen  bl.a kvinner som bruker hormonell prevensjon. 
+
+ I studie [2]  er 45  friske, utrente kvinner  mellom 21 og 25 år fra samme sosio-økonomiske bakgrunn  utvalgt fra  en post-grad avdeling ved et universitet i India, og det fremkommer ingen opplysninger om noen ble ekskludert.  Studiestørrelsen anses som adekvat, men studiepopulasjonen er selektert og gir ikke nødvendigvis en  god representasjon  av bakgrunnspopulasjonen. 
+ 
+Studie [3] inkluderte   9  eumenoreiske kvinner mellom 18-32 år.  Artikkelen gir ingen informasjon om  hvordan deltakerne er rekruttert, men alle deltakere var fysisk aktive  og hadde en VO2max på  46 ±2,6 ml/kg/min ved studiestart.  Studiepopulasjonen er  svært liten, men det er ikke gjort styrketest. 
+
+Case-kontroll-studien i  artikkel [4] rekrutterte to grupper unge, friske, relativt utrente kvinner.  Det fremkommer ingen opplysninger om    inklusjons eller eksklusjonskriterier. Den ene gruppen brukte ikke hormonell prevensjon, og alle hadde en regelmessig menstruasjon på mlm 26 og 32 dager. Kontrollgruppen  brukte en kombinasjons-p-pille, og hadde gjort dette i minst 6 mndr. Syklus ble inndelt i  tidlig- og midt-follikulærfase, ovulasjonsfase og midt- og sen-lutealfase.
+I det femte  studiet [5]  ble nitten friske kvinner med normal menstruasjonssyklus rekruttert.  De hadde ikke  brukt  hormonell prevensjon de siste 6 mndr før studien. Deltakere med uregelmessig mensturasjon ble eksludert, og den endelige studiepopulasjonen var 7 deltakere. Dette er en svært liten gruppe.
+
+I første  studie [1] ble  menstruasjonssyklus og eggløsning  beregnet ut fra 1. blødningsdag og eggløsningstest. Man har inndelt i Follikuærfase (FP) og Lutealfase (LP).  Det ble gjennomført fem  fysiske tester på sykkel.  Først en base-line, deretter i dag 5-7 i syklus (tidlig follikulærfase) og  21-23 (midtre/sen lutealfase) i to påfølgende sykluser. I første syklus ble det gjennomført  trinnvis test til utmattelse, og i andre syklus ble det gjennomført en  submaximal test. Rekkefølgen av fasen testene ble gjennomført i, ble randomisert.  Det ble tappet blod før underveis og etter  testing, og prøvene ble analysert for  laktat, FSH, østradiol [E2] og  progesteron [P4]. VO2max, HR, VE, VCO2, RER, RF og TV ble registrert.   Dette er variabler som vil kunne gi oss svar på spørsmålene forfatterne stiller. 
+
+ I artikkel [2] benyttet man  tempraturmåling  for å  bestemme eggløsningstidspunkt.  Testene ble gjennomført i  menstruasjonssyklus dag 3 (tidlig follikulærfase) og 10 (sen follikulærfase) samt mellom  dag 20-24 (lutealfase). Testene ble gjennomført  flatt på på tredemølle som en VO2max-test ( til utmattelse). I artikkelen beskrives ikke  datasettet. Resultatene presenteres i form av  deskriptive  variabler med gennomsnittsverdier ±SD for  preHR, BT, RR, VO2max, max. minuttvolum, O2puls, utholdenhetskapasitet og  maxHR. 
+ 
+ Testene i studie [3] ble gjennomført på tredemølle i syklusdag 6-9 (Midtfollikulærfase) og 6-9 dager etter ovalusjon (Midtlutealfase). Eggløsning ble stadfestet ved temeraturmålinger, samt hormonanalyse av morgenurin på testdag.  Rekkefølgen på fasene det ble gjennomført test, ble randomisert.
+Testene som ble gjennomført var en  gradvis økning  av belastning i 30 min. Etter 30 min, ble belastningen økt til 90% av VO2max og  deltakerne løp til utmattelse.  Blodprøvene ble tatt  rett før test,  og 3 og 30 minutter etter test. 
+
+ I  det første styrkestudiet [4] ble deltakerne testet ukentlig  gjennom  to  fulle sykluser.  Begge ben ble testet hver gang, og gjennomsnitt beregnet. Syklus ble beregnet tilbake fra siste  menstruasjons  første dag (SM) og ovulasjon beregnet 14 dager før dette.  EF = 1-7d, MF = 7-12d, MC = 12-18d, ML = 18-21d og LL = 21-32d. Den  maximale voluntære isometriske styrke av quadriceps ble testet.  De kontraktile delene av quadriceps  ble stimulert og man beregnet relaxasjonstiden. For  å se på trettbarheten, ble muskelen igjen stimulert og Trettbarhets index ble målt som  den prosentvise mistede kraft over 3 minutter. Håndgrepskraft ble også målt med et hånd-dynamometer.
+ Variablene i studiet er  menstruasjonssyklus-periodene og muskelstyrke  i  quadriceps og håndgrep, og trettbarhet og  relaxasjonsevne i quadriceps. 
+ 
+ I det siste studiet [5] målte man  muskelstyrke, trettbarhet og kontraktilitet i de ulike fasene av syklus. Man inndelte fasene i blødningsfase, sen follikulærfase og lutealfase.  Testing i sen follikulærfase er vanskelig å time, da  peak i  østrogennivå kun varer ca 3 dager.   Man valgte derfor å teste to dager i denne fasen, for å øke  treffsikkerheten. Testen  som ble gjennomført den dagen  hvor det ble målt høyest østrogen og lavest progesteron ble benyttet. Man gjennomførte isometrisk test  og trettbarhetstest av quadriceps før isokinetisk knefleksjon og -ekstensjon styrke og trettbarhet. Deretter gjennomførte man håndgrep-test. Det ble benyttet temperaturmåling for å finne ovulasjonsdag, og deltakerne  fylte ut  spørreskjema om symptomer. Før hver test, ble det tatt blodprøver, som ble analysert  mhp FSH, LH, østrogen og progesteron.
+
+
+### Statistisk analyse
+
+Forfatterne  i den første artikkelen [1] benyttet lineære regresjonsmodeller i analysen av datasettet. I den statistiske analysen  ble det benyttet  en Student´s parret t-test og analysa av varians (ANOVA) for å bestemme  forskjellen mellom follikullær- og luteal-fase og pre- og post-test treningsdata.
+For å  sammenligne  det cardiorespiratoriske  og p-laktat responset på hhv VO2 max-test og laktatprofiltest, ble det benyttet en RMANOVA.
+Også i andre artikkel [2]  benyttet man ANOVA for å sammenligne  forskjellen i gjennomsnittet som er observert  i de ulike menstruasjonsfasene, men i  tredje artikkel [3] ble   data statistisk analysesert ved en Friedman analyse av variance og  Fisher post-hoc testing av  den gjennomsnittlige forskjellen.
+I artikkel fire [4] ble det  benyttet ANOVA  for å sammenligne syklusfasene, og disse ble testet ved Student´s parret t-test. Student´s uparrede t-test ble benyttet for å sammenlgne de to gruppene
+ANOVA  ble også benyttet i artikkel fem [5] for å se  forskjeller i hormonverdier og styrketester. 
+
+
+### Resultater
+
+Det er noe sprikende  resultataer i de  fem artiklene, men   studiene er designet noe ulikt, og variablene er ikke de samme.
+
+Studiet bak artikkel [1] målte  hormonprofil i hvile. Denne  viser  at basal [E2] og [P4] var høyere i LP enn i  FP. Dette er ikke uventet, da test i FP  ligger i  tidlig follikullærfase, hvor man også forventer at [E2] er lav.  LH var lav i begge faser (av samme årsak). Under  aktivitet over 75% av VO2 max  så man  en signifikant stigning i [E2] i LP.  Etter aktivitet økte [E2] i begge faser. Man fant ingen forskjell i peak power output, tid  til utmattelse eller  totalt arbeid  mellom de  to fasene. 
+Det ble påvist signifikant interaksjonseffekt mellom fase (LP) og treningsbelastning  (%WLmax). Man så ingen endring i ventilasjon, RF, HR, men CO2 output og var lavere i LP og  ved høy intensitet så man lavere RER i LP. Det ble påvist en positiv korrelasjon mellom  basal [E2] og RER i FP.  Laktat-konsentrasjonen var lavere ved alle intensitetetr i LP.  Under  høy intensitet var  s-laktat signifikant høyere ved 15m, 20 m og post i FP.
+
+I artikkel [2]  fant man  en  signifikant lavere pre-HR i blødningsfasen (tidlig FP) enn i sen FP og LP. Forfatterne fant også at VO2max, O2puls, max MV og utholdenhetskapasitet var signifikant lavere i follikulærfasen.  
+
+ I det tredie studiet [3], hvor  det  fokuseres på laktat, ser man at løpstid  til utmattelse var lik i begge faser, og  at hvile-laktatverdiene  også  var like. Post-laktatverdiene var sigifikant lavere i ML enn i MF både etter 3 og 30 minutter. 
+ 
+ Studien i artikkel [4] viser ulike resultater for de to gruppene. 
+  Quadriceps styrke;  i  case- gruppen  så man en topp i MC, og det var signifikant større styrke  da enn i alle andre faser.  For kontrollgruppen (p-pille), var det ingen signifikant endring  mellom fasene. Man så at  kontrollgruppen generelt var svakere enn case-gruppen, men mener dette skyldes  en lavere kroppsvekt i denne gruppen. 
+  Håndgrep styrke;  var også signifikant større i MC  sammenlignet med alle andre faser i case-gruppen. Også her var  kontrollgruppen  svakere enn case-gruppen. Både  quadriceps styrke og håndgrepsstyrke var lavest i LL.
+  Quadriceps kontraktile egenskaper:  Relaxasjonstiden var langsomst i MC i case-gruppen. Det ble funnet signifikante forskjeller mellom MC og EF,ML og LL. I kontrollgruppen fant man ingen signifikante forskjeller. 
+  Quadriceps fatigue index:   I case-gruppen, var muskelen mer trettbar i MC, enn i de andre fasene, og signifikant  forskjell  til LL. Hos kontrollgruppen fant man ingen signifikant forskjell.
+  
+  Dette står i kontrast til det siste studiet [5] hvor man ikke fant signifikant forskjell i styrke  verken i quadriceps,  for kneflexorer eller extensorer eller ved håndgrep.  Man fant  hormonverdier som  endret seg  som forventet gjennom syklus  hos  individene.
+  
+### Diskusjon
+
+ Konklusjonen  i artikkel [1] er at  treningskapasitet (VO2max og laktatterskel) ikke er påvirket av menstruasjonssyklus hos unge utrente kvinner. Under submax. belastning i LP  ser man et metabolsk respons tolket som  en økt utnyttelse av lipider son energikilde. Forfatterne  viser til tidligere forsøk  som har vist  det samme, men at en del studier  ikke har  fokusert på metabolisme, men kun studert fysiologiske endepunkt.  De mener  derfor at metabolsk respons,  som  relativ treningsintensitet (% VO2max eller % WLmax),  er essensiell for å kunne  oppnå  dypere forståelse af fyiologisk respons på vedvarende trening med  ulik intensitet hos kvinner i fertil alder.  
+
+Forfatterne  mener studeiet viser at det er behov for mer forskning  på området. De påpeker at den  store variabiliteten i hormoner  både inter- og intrasubjekt skaper vansker med å oversette  resultatene - spesielt når det er  benyttet små kohorter. De foreslår å benytte oral hormonell prevensjon, som vi gi  en-fase hormoner utenom mensturasjon, og vil være enklere for forskere å forholde seg til. 
+
+I artikkel [2] finner  jeg diskrepans i  artiklens resultater og  konklusjon. I resultatene sine, beskriver forfatterene at pre-HR var lavere  i tidlig  FP enn i  sen FP og LP, men i diskusjonen skriver de at det er en forhøyet preHR i LP.  Dette forklarer de med økt sympatikusaktivitet, men BT er stabilt gjennom alle faser, og man vil også  forvente et økt BT  ved  økt sympatikusaktivitet. Forfatterne  skriver også i konklusjonen at de ikke finner  signifikant  forskjell på VO2max, O2puls, max MV, utholdenhetskapasitet og max HR, men i resultatene skriver de  at disse parametrene var  signifikant lavere i FP.  
+
+ Funnene  i artikkel [3] tyder på en endret  respons på blodlaktat   i de ulike menstruasjonsfasene, som også   andre forskere  har funnet.  Det er også forskere som har  rapportet ingen  signifkante forskjeller i de ulike fasene. Forfatterne  fremmer da  ulike muligheter for  bias i disse studiene.  
+
+ Forfatterne konkluderte  i artikkel [4] at funnene viste at musklene hadde størst styrke, var langsommere og mer trettbare  midtsyklisk hos  kvinner  med normal mensturasjonssyklus.  Man fant ikke lignende  forskjeller hos kvinner  som benyttet hormonell oral prevensjon. Østrogennivået er høyest rett før eggløsning, og det er foreslått som mulig årsak.  I muskelcellene finnes også testosteronreseptorer, og  da  testosteron også øker i samme periode, dette kunne være den tilgrunnliggende årsak.  Forfatterne  har testet kontraktilitet hos unge menn og sammenlignet disse resultatene med kvinnenes og kun funnet endring i midtsyklus. Dette mener de  peker mot at det ikke er testosteron som er årsak til endringen. 
+Østrogen har en høy serumkonsentrasjon også i lutealfase. Man burde  derfor funnet  de samme resutater i LL. Forfatterne fremmer at det i LL også er høye nivåer av progesteron, og at en mulig årsak er at progesteron kan inhibere effekten av østrogen. Hos postmenopausale kvinner, hvor styrken er lav ift muskelmasse, er også progesteronnivået lavt, hvilket  ikke støtter denne teorien. Temperaturendringen i cyklus anser forfatterne som  ikke mulig årsak til  relaxasjonsresultatene, da  musklene var raskest i LL og EF  hvor kroppstemperaturen er høyere enn i MF og MC.At man ikke fant forskjeller gjennom syklus  hos kontrollgruppen (P-piller), mener forfatterne skyldes  at serumverdiene av progesteron og østrogen er stabile gjennom pillefasen. 
+ 
+ Forfatterne  av artikkel [5] sammenligner  sine funn med artikkel [4] hvor funnene var signifikante. De forklarer dette med en dårligere definert  midtsyklus-periode i [4], og at  hormonnivåene derfor kan ha fluktuert  signifikant.  De fremmer derfor  viktigheten i å måle hormoner testdag for å kunne   dokumentere fase. Dette er viktig når man skal  vurdere testresultataer opp mot  syklus. 
+
+
+### Konklusjon
+
+Studiene bak artiklene har noe ulik tilgang til  det mer  generelle  spørsmålet; påvirker den hormonelle endring i kvinners menstruasjonssyklus fysiske prestasjoner?
+Det fremstår klart  at det er  særdeles viktig å kartlegge eksakt hvor i syklus kvinnene er, hvis man skal kunne trekke konklusjoner om  hormonendringene har signifikant betydning. Den sikreste måten å gjøre dette på, er  blodprøver på testdag.  Syklus bør inndeles i  tidlig og sen follikulærfase og tidlig og sen  lutealfase. Det er i sen follikulærfase østrogen har sitt største "peak" og  i tidlig lutealfase progesteron "peaker". Da har også østrogen en mindre peak, men denne er betydelig lavere enn  i sen follikulærfase. 
+
+Som alle artikler konkluderer med; det er behov for flere studier for å  kunne  besvare  spørsmålet.
+
