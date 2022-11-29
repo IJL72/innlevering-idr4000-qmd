@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.28)  29 NOV 2022 00:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.28)  29 NOV 2022 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,123 +1184,100 @@ Class scrreprt Warning: \float@addtolists detected!
 [4
 
 ]
-chapter without number
-[5
-
-] [6]
-chapter without number
-[7
-
-]
-chapter without number
-
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 346--346
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 336--336
 []\TU/lmtt/m/n/10.95 $ Gender     <chr> "Male", "Male", "Female", "Female", "Male", "Male", "Male",~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 347--347
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 337--337
 []\TU/lmtt/m/n/10.95 $ Timepoint  <chr> "Pre", "Post", "Pre", "Post", "Pre", "Post", "Pre", "Post",~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 349--349
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 339--339
 []\TU/lmtt/m/n/10.95 $ Height     <dbl> 195, 195, 169, 169, 175, 175, 180, 180, 191, 191, 171, 171,~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 350--350
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 340--340
 []\TU/lmtt/m/n/10.95 $ Weigth     <dbl> 86.0, 86.0, 56.1, 56.1, 81.9, 81.9, 93.4, 93.1, 80.7, 79.9,~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 351--351
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 341--341
 []\TU/lmtt/m/n/10.95 $ start.load <dbl> 10.0, 13.0, 8.5, 8.5, 8.5, 8.5, 12.0, 10.0, 8.5, 8.5, 8.5, ~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 352--352
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 342--342
 []\TU/lmtt/m/n/10.95 $ end.load   <dbl> 19.0, 19.0, 11.5, 11.5, 16.0, 14.5, 15.0, 15.0, 14.5, 14.5,~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 353--353
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 343--343
 []\TU/lmtt/m/n/10.95 $ VO2.max    <dbl> 5293, 5224, 2239, 2290, 4525, 3937, 4527, 4613, 4179, 4201,~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 354--354
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 344--344
 []\TU/lmtt/m/n/10.95 $ lac.max    <dbl> 8.31, 5.33, 5.68, 5.20, 6.14, 5.00, 4.47, 4.12, 7.45, 5.41,~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 355--355
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 345--345
 []\TU/lmtt/m/n/10.95 $ HR.max     <chr> "196", "201", "168", "169", "182", "180", "180", "175", "NA~[] 
  []
 
 
-Overfull \hbox (7.39111pt too wide) in paragraph at lines 356--356
+Overfull \hbox (7.39111pt too wide) in paragraph at lines 346--346
 []\TU/lmtt/m/n/10.95 $ RER.max    <dbl> 1.00, 1.01, 0.99, 0.96, 1.01, 1.03, 0.96, 0.99, 1.10, 1.20,~[] 
  []
 
 File: ./part1_files/figure-pdf/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use ./part1_files/figure-pdf/unnamed-chunk-2-1.pdf>
-[8
-
-]
-chapter without number
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 390--393
+Overfull \hbox (10.95pt too wide) in paragraph at lines 377--380
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 406--409
+Overfull \hbox (10.95pt too wide) in paragraph at lines 393--396
 []$[]$ 
  []
 
+[6]
 File: ./part1_files/figure-pdf/unnamed-chunk-8-1.pdf Graphic file (type pdf)
 <use ./part1_files/figure-pdf/unnamed-chunk-8-1.pdf>
+[7] [8]
+chapter without number
 [9
 
-] [10]
-chapter without number
-[11
-
-]
-chapter without number
-[12
-
-]
-chapter without number
-[13
-
 ]
 
-LaTeX Warning: File `./images/DNA_ACTN3-01.jpg' not found on input line 564.
+LaTeX Warning: File `./images/DNA_ACTN3-01.jpg' not found on input line 542.
 
 ! Unable to load picture or PDF file './images/DNA_ACTN3-01.jpg'.
 <to be read again> 
                    }
-l.564 ...t=\textheight]{./images/DNA_ACTN3-01.jpg}
+l.542 ...t=\textheight]{./images/DNA_ACTN3-01.jpg}
                                                    \hfill{} 
 Here is how much of TeX's memory you used:
- 38018 strings out of 477623
- 807348 string characters out of 5838221
- 1448778 words of memory out of 5000000
- 58599 multiletter control sequences out of 15000+600000
+ 38000 strings out of 477623
+ 806964 string characters out of 5838221
+ 1449546 words of memory out of 5000000
+ 58580 multiletter control sequences out of 15000+600000
  475690 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,9n,121p,10600b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (13 pages).
+Output written on index.pdf (9 pages).

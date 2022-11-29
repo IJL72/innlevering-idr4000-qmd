@@ -1,18 +1,9 @@
 # Deloppgave 1: Beskrivende statistikk, reliabilitet og validitet, verktøy for reproduserbar dataanalyse
 
----
-title: "Beskrivende statistikk, reliabilitet og validitet, verktøy for reproduserbar dataanalyse,"
-author: "IJL & HH"
-format: html
-editor: visual
-bibliography: references.bib
-editor_options: 
-  chunk_output_type: inline
----
 
-# Introduksjon og metode
+**Introduksjon og metode**
 
-### Laktatprofil løp
+***Laktatprofil løp***
 
 Vi har gjennomført laktattesting av til sammen 7 masterstudenter i aldersgruppen 23-50 år i løping på tredemølle. Det er gjennomført to tester (Pre og Post) av alle, men det er ikke gjennomført intervensjon i perioden mellom testene. Testen ble gjennomført som en laktatprofil med en standarisert trappetrinnsprotokoll der farten økte med 1,5km/t per drag til forsøkspersonen passerte en laktatkonsentrasjon høyere enn 4mmol/L. Grunnet tekniske utfordringer, ble testprotokollen (fartsøkningsintervallet) endret etter testing av to individer. Disse to er imidlertid testet likt begge ganger selv om hastighetene ikke var lik på alle trappetrinn som resten av gruppen.
 
@@ -32,11 +23,11 @@ Møllen har vært innstilt på 1 % stigning, og det er kjørt 5 minutters drag m
 
 Under testing, er data samlet inn via analysemaskin for laktat (Bionsen) og Jaeger Oxycon Pro, som analyserer ventilasjon, puls, O2 forbruk. Data er hentet ut i etterkant. Innsamlede data er i tillegg sikret løpende manuelt i plotteskjema. Alle data er etterfølgende lagt inn i et excelark (Data_run_2) før videre analyse.
 
-# Statistikk
+**Statistikk**
 
 Statistisk analyse er utført i RStudio 2022.07.2. Det er beregnet mean, median, standardavvik og varians av maksimale verdier pre og post. Det er beregnet standardavvik, typical error, og variasjonskoeffesient av differansen.
 
-# Deskriptive data
+**Deskriptive data**
 
 ```{r}
 #| echo: false
@@ -83,7 +74,7 @@ ggplot(data = data_run_2, mapping = aes(x =  Timepoint, y = lac.max)) +
 
 ```
 
-# Resultater
+**Resultater**
 
 ```{r}
 #| echo: false
@@ -254,14 +245,14 @@ geom_point() +
     
 ```
 
-# Konklusjon
+**Konklusjon**
 
 
 Vi har valgt å gjøre beregninger ut fra høyeste målte laktat pr test. Test ble ikke gjennomført helt i henhold til protokoll, grunnet tidsnød i lab. Flere av forsøkspersonene ble testet rett hverandre, med kun 10 minutter mellom testene. Protokollen ble endret underveis, og selv om dette ikke skal påvirke forholdet mellom pre- og post-testingen er det en svakhet ved forsøket. Konstant utskiftning av testpersonell også en sentral faktor til feilkilde. Når testene utføres av forskjellig testpersonell vil dette kunne gi utslag på resultatene, og være en feilkilde for spesielt "within-subject variation" [@hopkins2000]. Eksempelvis vil resultatet på laktatprøvene avhenge av hvordan testeren tar selve prøven, hvor lang tid som brukes, og om prøven utføres korrekt.
 I vårt forsøk er Typical Error (TE) beregnet til 1,08. Typical Error vil indikere forskjellen i avviket fra gjennomsnittet i to gruppene. Standardavvik (sd) er beregnet til 1,53 og varasjonskoeffisient (cv) til 17%. Standardavviket er avviket fra gjennomsnittet. Variasjonskoeffesienten kan beskrives som standardavviket i forhold til gjennomsnittet i prosent. 17% anses som en stor variasjon, noe som tyder på lav reliabilitet.
 
 
-# Referanser
+**Referanser**
 
 Tanner, R. K., and C. J. Gore. 2012. Physiological Tests for Elite Athletes 2nd Edition. Book. Human Kinetics. https://books.google.no/books?id=0OPIiMks58MC
 

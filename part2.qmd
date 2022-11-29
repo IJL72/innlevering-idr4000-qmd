@@ -1,18 +1,10 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
 
 # Deloppgave 2: LABRAPPORT 
 
+ "Labrapport: Ekstraksjon og analyse av DNA" 
+-
 
-\<--- title: "Labrapport: Ekstraksjon og analyse av DNA" 
-author: "Pia Julie Demler, Emil Hosøy,  Emil Åberg, Inger Johanne Løkkevik" 
-format: html editor: visual
-bibliography: references.bib ---
-
-## **Introduksjon**
+**Introduksjon**
 
 Fysisk prestasjon påvirkes av mange forskjellige faktorer. Et fokus de
 siste årene har vært forskning på genetikks påvirkning på prestasjon. Et
@@ -39,7 +31,7 @@ I denne undersøkelsen ble DNA ekstrahert fra helblod, etter videre
 bearbeiding og gjennomføring av PCR-test ble genotypene bestemt ved
 hjelp av gelelektroforese.
 
-## **Metode**
+**Metode**
 
 Fra helblod har vi ekstrahert DNA i henhold til protokoll adaptert fra
 Bartlett & Stirling [-@bartlett2003]. Dette har vi brukt til å bestemme
@@ -90,7 +82,7 @@ kjørte elektroforesen i ca. 1 time til fargen var ca. 80% gjennom gelen.
 I G:Box kunne vi visualisere gelen ved bruk av UV lys og Sybr green -
 innstilling.
 
-## **Resultater**
+**Resultater**
 
 PCR produktet ble analysert med elektroforese og G:Box som viste bånd på
 basepar 413 og 318 (Figur 1). Dette tilsvarer henholdsvis R-allelen og
@@ -101,7 +93,7 @@ etter gelelektroforese (2% agarose). Brønn 1 = ladder, brønn 2 og 3 = P,
 brønn 4 og 5 = IJ, brønn 6 og 7 = EH, brønn 8 = H~2~O (ikke
 avbildet).](images/DNA_ACTN3-01.jpg){fig-align="left" width="700"}
 
-## **Diskusjon**
+ **Diskusjon**
 
 Resultatene etter denne testen vil kunne vise hva slags genotype
 testpersonene har av genet ACTN3. Dette genet er assosiert med
@@ -122,4 +114,4 @@ produksjonsfasen, eller at man ikke fikk med nok øvre fase før vi
 tilsatte etanol. I den ene prøven, hvor DNA konsentrasjonen ble for lav
 til videre undersøkelse, ble midtre fase forstyrret.
 
-## Referanser
+**Referanser**
