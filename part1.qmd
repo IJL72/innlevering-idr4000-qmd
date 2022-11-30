@@ -1,7 +1,7 @@
 # Deloppgave 1: Beskrivende statistikk, reliabilitet og validitet, verktøy for reproduserbar dataanalyse
 
 
-**Introduksjon og metode**
+## Introduksjon og metode
 
 ***Laktatprofil løp***
 
@@ -23,11 +23,11 @@ Møllen har vært innstilt på 1 % stigning, og det er kjørt 5 minutters drag m
 
 Under testing, er data samlet inn via analysemaskin for laktat (Bionsen) og Jaeger Oxycon Pro, som analyserer ventilasjon, puls, O2 forbruk. Data er hentet ut i etterkant. Innsamlede data er i tillegg sikret løpende manuelt i plotteskjema. Alle data er etterfølgende lagt inn i et excelark (Data_run_2) før videre analyse.
 
-**Statistikk**
+##Statistikk
 
 Statistisk analyse er utført i RStudio 2022.07.2. Det er beregnet mean, median, standardavvik og varians av maksimale verdier pre og post. Det er beregnet standardavvik, typical error, og variasjonskoeffesient av differansen.
 
-**Deskriptive data**
+## Deskriptive data
 
 ```{r}
 #| echo: false
@@ -74,7 +74,7 @@ ggplot(data = data_run_2, mapping = aes(x =  Timepoint, y = lac.max)) +
 
 ```
 
-**Resultater**
+## Resultater
 
 ```{r}
 #| echo: false
@@ -245,7 +245,7 @@ geom_point() +
     
 ```
 
-**Konklusjon**
+## Konklusjon
 
 
 Vi har valgt å gjøre beregninger ut fra høyeste målte laktat pr test. Test ble ikke gjennomført helt i henhold til protokoll, grunnet tidsnød i lab. Flere av forsøkspersonene ble testet rett hverandre, med kun 10 minutter mellom testene. Protokollen ble endret underveis, og selv om dette ikke skal påvirke forholdet mellom pre- og post-testingen er det en svakhet ved forsøket. Konstant utskiftning av testpersonell også en sentral faktor til feilkilde. Når testene utføres av forskjellig testpersonell vil dette kunne gi utslag på resultatene, og være en feilkilde for spesielt "within-subject variation" [@hopkins2000]. Eksempelvis vil resultatet på laktatprøvene avhenge av hvordan testeren tar selve prøven, hvor lang tid som brukes, og om prøven utføres korrekt.

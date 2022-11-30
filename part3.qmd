@@ -2,8 +2,7 @@
 # Deloppgave 3: Vitenskapsfilosofi
 
 
-
-**oppg.1**
+## Falsifikasjonisme
 
 Popper ønsket å differensiere mellom vitenskap og pseudovitenskap.
 Den tradisjonelle ideen om at vitenskap skiller seg fra pseudovitenskap ved sin empiriske metode, hovedsakelig induktiv metode, mente han ikke var tydelig nok.
@@ -39,7 +38,7 @@ Vitenskaper er svært ulike, og det vil derfor være vanskelig å finne en måte
 Kunnskap utvikles i en sammenheng og må også ses i sammenheng.
 Jeg mener derfor Okashas tilgang er mest riktig.
 
-**oppg.2**
+## HD-metoden og abduksjon
 
 Kjerne idéen i den hypotetiske-deduktive metoden er at vi bekrefter en teori gjennom å positive svar når vi tester teoriens deduktive konsekvenser.
 Man vil argumentere for en teori, i motsetning til falsifisering, hvor man vil argumentere mot teorier.
@@ -81,7 +80,7 @@ T er bekreftet ( til en viss grad)
 
 En teori som forklarer flere forskjellige data og som utgår fra færre årsaker, anses å gi en bedre forklaring.
 
-**oppg.3**
+## Replikasjonskrisen
 
 Med replikasjon menes å gjenta en undersøkelse/studie for å kontrollere om et tidligere forskningsresultat lar seg gjenskape - om resultatene blir de samme eller nære.
 De senere årene har replikasjon av tidligere studier fått en økt interesse, fordi det har vist seg at en rekke tidligere forskningsfunn har vært vanskelige å gjenskape.
@@ -169,7 +168,7 @@ Alle fremsatte mulige årsaker fremstår som plausible forklaringer på replikas
 Som ved øvrige vitenskapsteorier, er det ikke en sannhet.
 Verden er kompleks.
 
-Litteraturliste:
+## Litteraturliste
 
 Hempel, Carl G.
 (1966) Scientific Inquiry; Invention and Test.

@@ -1,8 +1,6 @@
 # Deloppgave 4: Studiedesign
 
 
-
-
 Gjennom menstruasjonssyklus har kvinner i fertil alder svigninger i nivå av kjønnshormoner.  I Follikullærfasen dominerer østrogen og i lutealfasen  dominerer progesteron, selv om også østrogen har en peak da. Det har vært reist spørsmål om  disse fluktuasjoner i  hormonnivåer  har  inflytelse på kvinners fysiske prestasjoner.  Det  finnes noe  forskning på området hvor man har sett på muskelstyrke, VO2max og/eller laktat. Jeg har  tatt utgangspunkt i   fem orginalartikler fra kliniske forsøk hvor  man har sett på dette.  
 
 
@@ -27,7 +25,7 @@ The influence of menstrual cycle phase on skeletal muscle contractile characteri
 X A Janse de Jonge 1, C R Boot, J M Thom, P A Ruell, M W Thompson
 
 
-**Innledning**
+## Innledning
 
 Den overordnede problemstillingen i de aktuelle studiene er om hormonendringene gjennom menstruasjonssyklus har  inflytelse på  kvinners fysiske prestasjon, men i de fem studiene har tilgangen vært  ulik. Tre av studiene [1,2 og 3] har hovedfokus på  utholdenhet og kardiovaskulære aspekter, og to studier [4 og 5] har  undersøkt  muskelstyrke og kontraktile karakteristika.
 
@@ -43,7 +41,7 @@ Målet med  undersøkelsen i  fjerde artikkel[4] var å undersøke effekten av f
 Også i  den femte  artikkelen [5] har man  undersøkt betydningen av menstruasjonssyklus på  skjelettmuskulaturens kontraktile karakteristika, men  forfatterne  poengterer viktigheten av  å måle hormonstatus, da  dette ikke ses gjørt i tidligere studier. Forskerne har målt muskelfunksjon når  østrogen- og progesteronverdiene var lave ( under menstruasjonen), når østrogennåvået var høyt og progesteron lavt (sen follikulærfase) og mens både østrogen- og progesteronnivået var høyt (lutealfasen). Dette gir en større sikkerhet for at  deltakerne er  testet på  det tidlspunktet i syklus man har antatt.
 Forfatterne trekker frem  utfordringene ved tidligere studier, blant annet feilkilder ved måling av voluntær styrke og usikre  syklusperioder, da  det ikke er tatt hormonprøver for å sikre at man tester på riktig antatt tidspunkt i syklus. Sammenhengen mellom  mensturasjonssyklus og styrke er fortsatt uklar og  de ønsker derfor å bidra til å belyse sammenhengen  bedre.
 
-**Teori**
+## Teori
 
 Man kan inndele menstruasjonssyklus i fire faser; Den  tidlige follikulære fase, som starter ved  menstruasjonens  første blødningsdag, den sene follikullære fase, som strekker seg frem til eggløsning,  den tidlige luteale fase som starter ved eggløsning og den sene luteale fase som strekker seg frem til menstruasjonens første dag. 
  
@@ -58,7 +56,7 @@ I artikkel [4] har man  valgt å sammenligne med en kontrollgruppe som bruker p-
 Teorien om at  østrogen er  anabol for skjelettmuskulatur,  er  nærliggende da det  ses en betydelig   muskelsvekkelse hos kvinner etter overgangsalderen.  Vi vet at produksjon av  østrogen faller gradvisgjennom klimakteriet. Men det skjer også andre hormonelle forandringer, og vi VET altså ikke om det er østrogen som er den ene årsaken til muskelsvinn.
 
 
-**Metode**
+## Metode
 
 Metodene og designet i de fem studiene  har flere likhetstrekk, men også forskjeller.  Studiedesignet i artikkel [1], [2], [3] og [5] er longitudinel kohort-studie med  oppfølgingstid på  to sykluser ( ca 8 uker). Man følger da et utvalg - en kohort - gjennom en periode, hvor man gjør observasjoner.  Det gjennomføres ingen intervensjoner i disse studiene. Observasjonene vil fortelle oss om  det er signifikant forskjell  i de variablene vi måler  på de   gitte  tidspunkt.
 Studiet bak artikkel [3] er også randomisert, da  rekkefølgen fasene de ble testet i ble randomisert. Med randomisering menes at det gjøres et tilfeldig utvalg.
@@ -89,7 +87,7 @@ Testene som ble gjennomført var en  gradvis økning  av belastning i 30 min. Et
  I det siste studiet [5] målte man  muskelstyrke, trettbarhet og kontraktilitet i de ulike fasene av syklus. Man inndelte fasene i blødningsfase, sen follikulærfase og lutealfase.  Testing i sen follikulærfase er vanskelig å time, da  peak i  østrogennivå kun varer ca 3 dager.   Man valgte derfor å teste to dager i denne fasen, for å øke  treffsikkerheten. Testen  som ble gjennomført den dagen  hvor det ble målt høyest østrogen og lavest progesteron ble benyttet. Man gjennomførte isometrisk test  og trettbarhetstest av quadriceps før isokinetisk knefleksjon og -ekstensjon styrke og trettbarhet. Deretter gjennomførte man håndgrep-test. Det ble benyttet temperaturmåling for å finne ovulasjonsdag, og deltakerne  fylte ut  spørreskjema om symptomer. Før hver test, ble det tatt blodprøver, som ble analysert  mhp FSH, LH, østrogen og progesteron.
 
 
-**Statistisk analyse**
+## Statistisk analyse
 
 Forfatterne  i den første artikkelen [1] benyttet lineære regresjonsmodeller i analysen av datasettet. I den statistiske analysen  ble det benyttet  en Student´s parret t-test og analysa av varians (ANOVA) for å bestemme  forskjellen mellom follikullær- og luteal-fase og pre- og post-test treningsdata.
 For å  sammenligne  det cardiorespiratoriske  og p-laktat responset på hhv VO2 max-test og laktatprofiltest, ble det benyttet en RMANOVA.
@@ -98,7 +96,7 @@ I artikkel fire [4] ble det  benyttet ANOVA  for å sammenligne syklusfasene, og
 ANOVA  ble også benyttet i artikkel fem [5] for å se  forskjeller i hormonverdier og styrketester. 
 
 
-**Resultater**
+## Resultater
 
 Det er noe sprikende  resultataer i de  fem artiklene, men   studiene er designet noe ulikt, og variablene er ikke de samme.
 
@@ -117,7 +115,7 @@ I artikkel [2]  fant man  en  signifikant lavere pre-HR i blødningsfasen (tidli
   
   Dette står i kontrast til det siste studiet [5] hvor man ikke fant signifikant forskjell i styrke  verken i quadriceps,  for kneflexorer eller extensorer eller ved håndgrep.  Man fant  hormonverdier som  endret seg  som forventet gjennom syklus  hos  individene.
   
-**Diskusjon**
+## Diskusjon
 
  Konklusjonen  i artikkel [1] er at  treningskapasitet (VO2max og laktatterskel) ikke er påvirket av menstruasjonssyklus hos unge utrente kvinner. Under submax. belastning i LP  ser man et metabolsk respons tolket som  en økt utnyttelse av lipider son energikilde. Forfatterne  viser til tidligere forsøk  som har vist  det samme, men at en del studier  ikke har  fokusert på metabolisme, men kun studert fysiologiske endepunkt.  De mener  derfor at metabolsk respons,  som  relativ treningsintensitet (% VO2max eller % WLmax),  er essensiell for å kunne  oppnå  dypere forståelse af fyiologisk respons på vedvarende trening med  ulik intensitet hos kvinner i fertil alder.  
 
@@ -133,7 +131,7 @@ I artikkel [2] finner  jeg diskrepans i  artiklens resultater og  konklusjon. I 
  Forfatterne  av artikkel [5] sammenligner  sine funn med artikkel [4] hvor funnene var signifikante. De forklarer dette med en dårligere definert  midtsyklus-periode i [4], og at  hormonnivåene derfor kan ha fluktuert  signifikant.  De fremmer derfor  viktigheten i å måle hormoner testdag for å kunne   dokumentere fase. Dette er viktig når man skal  vurdere testresultataer opp mot  syklus. 
 
 
-**Konklusjon**
+## Konklusjon
 
 Studiene bak artiklene har noe ulik tilgang til  det mer  generelle  spørsmålet; påvirker den hormonelle endring i kvinners menstruasjonssyklus fysiske prestasjoner?
 Det fremstår klart  at det er  særdeles viktig å kartlegge eksakt hvor i syklus kvinnene er, hvis man skal kunne trekke konklusjoner om  hormonendringene har signifikant betydning. Den sikreste måten å gjøre dette på, er  blodprøver på testdag.  Syklus bør inndeles i  tidlig og sen follikulærfase og tidlig og sen  lutealfase. Det er i sen follikulærfase østrogen har sitt største "peak" og  i tidlig lutealfase progesteron "peaker". Da har også østrogen en mindre peak, men denne er betydelig lavere enn  i sen follikulærfase. 
