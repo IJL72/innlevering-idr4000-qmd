@@ -1,3 +1,9 @@
+---
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
 # Deloppgave 5: Analysere repeterte målinger - Effekt av styrketrening
 
 ### Introduksjon:
@@ -15,7 +21,8 @@ Styrke defineres som evnen en muskel eller muskelgruppe har til å utvikle kraft
 
 Uansett årsak til at man trener, ønskes størst mulig effekt sett i forhold til innsats.
 Jeg ønsker å se om det er en forskjell i økning av muskelstyrke ved å gjennomføre styrketrening i ett sett hhv flere sett, hvilket vil være tidsbeasparende, og lettere for "folk flest" å kunne gjennomføre.
-Min hypotese er at trening med tre sett vil gi et større respons enn trening med ett sett.
+Min hypotese er at det vil gi ulik økning i muskelmasse og muskelstyrke ved singseltintervensjonen enn ved multisettintervensjonen, µ (singleset) ≠ µ(multiset).
+Nullhypotesen er da at µ(singleset) = µ(multiset).
 
 ### Metode:
 
@@ -124,9 +131,10 @@ t.test(dat$multiple, dat$single, paired = TRUE)
 
 ```
 
-Parret t-test sammenligner endringen i fettfri masse gjennom intervensjonen i relasjon til single- eller multi-sett trening Ved parret t-test får vi t = 2.1875, df = 33, p-verdi = 0.0359.
+Parret t-test sammenligner endringen i fettfri masse gjennom intervensjonsperioden sett i relasjon til single- eller multisett trening.
+Ved parret t-test får vi t = 2.1875, df = 33, p-verdi = 0.0359.
 Estimat for gjennomsnittet av forskjellen er 122,79 og 95% konfidensinterval 8,58 og 237,00.
-Dette viser at økningeni fettfri masse mellom de to gruppene var signifikant.
+Dette viser at forskjellen i økning i fettfri masse mellom de to gruppene var signifikant.
 
 ```{r}
 #| echo: FALSE
@@ -158,7 +166,7 @@ dxadata %>%
 
 ```
 
-Muskelstyrke - Leggpress
+Muskelstyrke - Ben
 
 ```{r}
 #| echo: FALSE
@@ -166,51 +174,31 @@ Muskelstyrke - Leggpress
 #| message: FALSE
 #| include: FALSE
 
+ #Beregner endring i  muskelstyrke gjennom intervensjn sett i relasjon til  gruppe (single/multi)
 
+#Henter data
 str.dat <- strengthvolume %>% 
   select(participant, sex, exercise, include, time, sets, leg, load ) %>%
-
+  #Filtrerer inkluderte deltagere
         filter(include == "incl") %>%
+   # Beregner gjennomsnittlig baseline
         mutate(time = if_else(time %in% c("pre", "session1"), "pre", time)) %>%
         group_by(time, exercise, participant, sex, sets) %>%
         summarise(load = mean(load, bna.rm = TRUE)) %>%
-        filter(exercise == "legpress",
-                time %in% c("pre", "post")) %>%
+     #Filtrerer pre-post-data
+        filter(time %in% c("pre", "post")) %>%
+     #Utvider med tid
         pivot_wider(names_from = "time",
                     values_from = "load") %>%
+     # Beregner differanse
         mutate(str_change = post - pre) %>%
   select(participant:sets, str_change) %>%
+     # Lagrer  differansen og utvider med sett
         pivot_wider(names_from = sets, values_from = str_change) %>% 
   print()
 
   
 ```
-
-```{r}
-#| echo: FALSE
-#| warning: FALSE
-#| message: FALSE
-#| include: FALSE
-#| fig-cap: " Figur 2 - endring i muskelstyrke ved Legpress"
-
-str.dat <- strengthvolume %>% 
-  select(participant, sex, exercise, include, time, sets, leg, load) %>%
-  filter(include == "incl") %>% 
-  filter(exercise == "legpress",
-                time %in% c("pre", "post")) %>%
-  mutate(time = if_else(time %in% c("pre", "session1"), "pre", time)) %>%
-        group_by(time, exercise, participant, sex, sets) %>%
-        summarise(load = mean(load, bna.rm = TRUE)) %>%
-  pivot_wider(names_from = "time",
-              values_from = "load") %>% 
-  mutate(str_change = post - pre) %>% 
-  select(participant:sets, str_change) %>%
-  pivot_wider(names_from = sets, values_from = str_change) %>% 
-  print()
-
-     
-```
-
 
 ```{r}
 #| echo: FALSE
@@ -225,19 +213,21 @@ t.test(str.dat$multiple, str.dat$single, paired = TRUE)
 
 ```
 
-Den parrede t-test sammenligner endringen i muskelstyrke  ved Legpress gjennom intervensjonen  (pre-post) sett i forhold til de to gruppene (multiple- og single sett).
-Beregningen viser at t = 2.1366, df = 29, p-value = 0.0412 og endringen i muskelstyrken i forhold til de to gruppene ved legpress da er signifikant.
-p \<0.05.
-
+Den parrede t-test sammenligner endringen i muskelstyrke i beina (legpress og legekstensjon) gjennom intervensjonsperioden (pre-post) sett i forhold til de to gruppene (multiple- og single sett).
+Beregningen viser at t = 5,8, df = 193, p-value = 2.292e-08.
+95% konfidensintervaller er 4,93 og 9,99.
+Forskjellen i gjenneomsnitt (Mean difference mellom gruppene er 7,46. Forskjellen i endringen i muskelstyrken mellom de to gruppene er signifikant.
 
 ### Diskusjon
 
-Resultatene tyder på at tre sett med styrketrening 2-3 ganger i uken over  en 12 ukers periode gir et bedre respons både på styrke og muskelvekst sammenlignet med ett sett over en 12 ukers periode.\
+Resultatene tyder på at tre sett med styrketrening 2-3 ganger i uken over en 12 ukers periode gir et bedre respons både på styrke og muskelvekst sammenlignet med ett sett over en 12 ukers periode.
 
 Den totale treningsbelastingen i multiple-set-gruppen er høyere enn i single-set-gruppen, og man vil forvente en dosis-respons økning i både styrke og muskelmasse.
-@mangine_improving_2015 og @pina2019 gjennomførte et studie på eldre kvinner, hvor de trente enten to (G2) eller tre (G3) ganger i uken.
+@raastad2010
+
+@mangine2015 og @pina2019 gjennomførte et studie på eldre kvinner, hvor de trente enten to (G2) eller tre (G3) ganger i uken.
 Totalload var altså større for (G3), men det var ingen signifikant forskjell mellom gruppene ift hypertrofi og styrke.
-En metaanalyse av @refalo_influence_2021 viser at trening med både høy og lav load ga hypertrofi, mens høy load ga større økning i styrke.
+En metaanalyse av @refalo2021 viser at trening med både høy og lav load ga hypertrofi, mens høy load ga større økning i styrke.
 Dette samsvarer til dels med våre funn.
 @lopesmachado2022 finner ingen direkte sammenheng mellom intensitet og volum og hypertrofi.
 

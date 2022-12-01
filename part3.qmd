@@ -159,7 +159,7 @@ Andre ganger kan økonomi og tidspress være en faktor.
 En siste ting Bird nevner som en mulig forklaring er Publikasjons-skjevhet.
 Med dette menes at negative resultater ikke blir publisert like ofte som positive resultater.
 Årsaken til dette kan både skyldes at forskere ikke ønsker publikasjon, men også at tidsskrift ikke publiserer disse data i like stor grad.
-Flere vitenskapsfilosofer (Heene\[2012\], Francis\[2012\], Pashler og Wagenmakers\[2012\], Romeo\[2016\]) har argumentert for dette, men Bird mener ikke dette kan være den eneste årsak til krisen.
+Flere vitenskapsfilosofer (Heene\[2012\], Francis\[2012\], Pashler og Wagenmakers\[2012\], Romeo\[2016\]) har i følge Bird argumentert for dette, men Bird mener ikke dette kan være den eneste årsak til krisen.
 Både forskere og tidsskriftene har høy standard for kvalitet og har en høy terskel for statistisk signifikans.
 Dette vil medføre høy sannsynlighet for at et positivt resultat er sant.
 Ved teorier der det ikke foreligger annen publisert forskning, vil man ikke vite om dette skyldes om teorien er testet med negativt resultat, eller om teorien ikke er testet tidligere.
@@ -168,23 +168,3 @@ Alle fremsatte mulige årsaker fremstår som plausible forklaringer på replikas
 Som ved øvrige vitenskapsteorier, er det ikke en sannhet.
 Verden er kompleks.
 
-## Litteraturliste
-
-
-Hempel, Carl G.
-(1966) Scientific Inquiry; Invention and Test.
-\| C G Hempel, Philosophy of Natural Science (s.3-18) Princeton, Prentice Hall.
-
-Godfrey-Smith, P. (2003) Bayesianism and modern theories of evidence.
-\| P.
-Godfrey-Smith, Theory and Reality: An Introduction to the Philosophy of Science (s. 202-218) Chicago; University of Chicaago Press.
-
-Popper, K.
-(1969) Conjectures and Refutations; The Growth of Scientific Knowledge (3. Utg) London: Routledge.
-
-Bird, A.
-(2021) The British Journal for the Philosophy of Science, vol.72, nr. 4 December 2021
-
-Okasha S.
-(2016) Philosophy of Science, a very short introduction.
-(s. 1-70) second edition 2016, Oxford University press.
