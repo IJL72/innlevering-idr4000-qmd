@@ -1,9 +1,14 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
 # Deloppgave 1: Beskrivende statistikk, reliabilitet og validitet, verktøy for reproduserbar dataanalyse
 
+### Introduksjon og metode
 
-# Introduksjon og metode
-
-### Laktatprofil løp
+**Laktatprofil løp**
 
 Vi har gjennomført laktattesting av til sammen 7 masterstudenter i aldersgruppen 23-50 år i løping på tredemølle. Det er gjennomført to tester (Pre og Post) av alle, men det er ikke gjennomført intervensjon i perioden mellom testene. Testen ble gjennomført som en laktatprofil med en standarisert trappetrinnsprotokoll der farten økte med 1,5km/t per drag til forsøkspersonen passerte en laktatkonsentrasjon høyere enn 4mmol/L. Grunnet tekniske utfordringer, ble testprotokollen (fartsøkningsintervallet) endret etter testing av to individer. Disse to er imidlertid testet likt begge ganger selv om hastighetene ikke var lik på alle trappetrinn som resten av gruppen.
 
@@ -27,7 +32,7 @@ Under testing, er data samlet inn via analysemaskin for laktat (Bionsen) og Jaeg
 
 Statistisk analyse er utført i RStudio 2022.07.2. Det er beregnet mean, median, standardavvik og varians av maksimale verdier pre og post. Det er beregnet standardavvik, typical error, og variasjonskoeffesient av differansen.
 
-# Deskriptive data
+### Deskriptive data
 
 ```{r}
 #| echo: false
@@ -44,13 +49,15 @@ library(exscidata)
 library(tidyr)
 library(dplyr)
 
+data(data.run.2.xlsx)
+
 
 #Deskriptive data
 
 data_run_2 <- read_excel("data.run.2.xlsx")%>% 
   
   
-  select(FP, Gender,Timepoint, Age, Height, Weigth, start.load, end.load, VO2.max,lac.max, HR.max, RER.max)  
+  select(FP, Gender,Timepoint, Age, Height, Weigth, start.load, end.load, VO2.max,lac.max, HR.max, RER.max)
 
 
 ```
@@ -72,9 +79,10 @@ ggplot(data = data_run_2, mapping = aes(x =  Timepoint, y = lac.max)) +
 
 ```
 
-# Resultater
+### Resultater
 
- Vi har valgt å gjøre beregninger av gjennomsnittlige maksimale verdier, medianer, standardavvik av maksimale verdier og varians. Bergningene  for laktat brukes  til beregning av testens typical error (TE), standarddeviasjon (sd), mean (m) og korrelasjonskoeffisient (cv).
+Vi har valgt å gjøre beregninger av gjennomsnittlige maksimale verdier, medianer, standardavvik av maksimale verdier og varians. Bergningene for laktat brukes til beregning av testens typical error (TE), standarddeviasjon (sd), mean (m) og korrelasjonskoeffisient (cv).
+
 ```{r}
 #| echo: false
 #| message: false
@@ -224,11 +232,17 @@ data_run_2 %>%
         pivot_wider(names_from = Timepoint, 
                     values_from = lac.max) %>%
         mutate(diff = Post - Pre) %>%
-        summarise(sd = sd(diff), #SD av differanse
-                  te = sd / sqrt(2), # Total Error
-                  m = mean(c(Pre, Post)), #Gjennomsnitt av alle målinger
-                  cv = 100*(te/m))   # Korrelasjonskoeffecient
-                   
+                  #SD av differanse
+        summarise(sd = sd(diff), 
+                  # Total Error
+                  te = sd / sqrt(2), 
+                  #Gjennomsnitt av alle målinger
+                  m = mean(c(Pre, Post)), 
+                  # Korrelasjonskoeffecient
+                  cv = 100*(te/m)) %>% 
+  print()
+
+  
 
 ```
 
@@ -259,14 +273,10 @@ geom_point() +
     
 ```
 
-# Konklusjon
+### Konklusjon
 
 Vi har valgt å gjøre beregninger ut fra høyeste målte laktat pr test. Test ble ikke gjennomført helt i henhold til protokoll, grunnet tidsnød i lab. Flere av forsøkspersonene ble testet rett hverandre, med kun 10 minutter mellom testene. Protokollen ble endret underveis, og selv om dette ikke skal påvirke forholdet mellom pre- og post-testingen er det en svakhet ved forsøket. Konstant utskiftning av testpersonell også en sentral faktor til feilkilde. Når testene utføres av forskjellig testpersonell vil dette kunne gi utslag på resultatene, og være en feilkilde for spesielt "within-subject variation" [@hopkins2000]. Eksempelvis vil resultatet på laktatprøvene avhenge av hvordan testeren tar selve prøven, hvor lang tid som brukes, og om prøven utføres korrekt.
 
-I vårt forsøk er Typical Error (TE) beregnet til 1,08. Standardavvik (sd) er beregnet til 1,53 og varasjonskoeffisient (cv) til 17%. TE gir oss informasjon om usikkerheten til estimatet på en sannsynlighet. Usikkerheten øker med førre deltagere.  Standardfeilen  TE  går mot null,  når antall deltagere (n) vokser. Standardavviket (sd) defineres som kvadratroten av variansen. Et sd på rundt 1 eller mindre, forteller oss at det er stor enighet i svarene - at de to testene er mer like. Et sd på mer enn 2, forteller oss at det er stor spredning i resultataene, dvs mindre reliabilitet. Sammen med et konfidensintervall på 17%, forteller det oss at vår test har en relativt lav reliabilitet.
+I vårt forsøk er Typical Error (TE) beregnet til 1,08. Standardavvik (sd) er beregnet til 1,53 og varasjonskoeffisient (cv) til 17%. TE gir oss informasjon om usikkerheten til estimatet på en sannsynlighet. Usikkerheten øker med førre deltagere. Standardfeilen TE går mot null, når antall deltagere (n) vokser. Standardavviket (sd) defineres som kvadratroten av variansen. Et sd på rundt 1 eller mindre, forteller oss at det er stor enighet i svarene - at de to testene er mer like. Et sd på mer enn 2, forteller oss at det er stor spredning i resultataene, dvs mindre reliabilitet. Sammen med et konfidensintervall på 17%, forteller det oss at vår test har en relativt lav reliabilitet.
 
-
-# Referanser
-
-Tanner, R. K., and C. J. Gore. 2012. Physiological Tests for Elite Athletes 2nd Edition. Book. Human Kinetics. https://books.google.no/books?id=0OPIiMks58MC
 

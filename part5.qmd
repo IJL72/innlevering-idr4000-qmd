@@ -1,6 +1,4 @@
-# Deloppgave 5: Analysere repeterte målinger
-
-<# Effekt av styrketrening
+# Deloppgave 5: Analysere repeterte målinger - Effekt av styrketrening
 
 ### Introduksjon:
 
@@ -50,9 +48,9 @@ Deskriptiv statistikk er beskrevet som gjennomsnitt og standardavvik (mean(SD)).
 Det er benyttet parret t-test for å beregne p-verdi og tolke effekt på muskelstyrke og -vekst i de to intervensjonsgruppene.
 Statistisk signifikans er satt ved P \< 0.05.
 
-### Resultater:
+### Resultater
 
-***Kroppssammensetning - Fettfri masse***
+Kroppssammensetning - Fettfri masse
 
 ```{r}
 #| echo: false
@@ -109,7 +107,8 @@ dat<- dxadata %>%
   mutate(lbmleg_change = post - pre) %>% 
       #Gjemmer endring og  utvider med sets
  select(participant:sets, lbmleg_change) %>%
-        pivot_wider(names_from = sets, values_from = lbmleg_change) 
+        pivot_wider(names_from = sets, values_from = lbmleg_change) %>% 
+  print()
   
 
 ```
@@ -118,16 +117,16 @@ dat<- dxadata %>%
 #| echo: FALSE
 #| warning: FALSE
 #| message: FALSE
-
-### t-test på  endring (change score)
+#| # t-test på  endring (change score)
 
 t.test(dat$multiple, dat$single, paired = TRUE) 
+
 
 ```
 
 Parret t-test sammenligner endringen i fettfri masse gjennom intervensjonen i relasjon til single- eller multi-sett trening Ved parret t-test får vi t = 2.1875, df = 33, p-verdi = 0.0359.
 Estimat for gjennomsnittet av forskjellen er 122,79 og 95% konfidensinterval 8,58 og 237,00.
-Dette viser at endringen i fettfri masse mellom de to gruppene var signifikant.
+Dette viser at økningeni fettfri masse mellom de to gruppene var signifikant.
 
 ```{r}
 #| echo: FALSE
@@ -155,11 +154,11 @@ dxadata %>%
        color = "Antall sett") %>% 
   labs(title ="Figur 1: Endring i fettfri masse") 
 
-  
+
 
 ```
 
-***Muskelstyrke - Leggpress***
+Muskelstyrke - Leggpress
 
 ```{r}
 #| echo: FALSE
@@ -168,29 +167,21 @@ dxadata %>%
 #| include: FALSE
 
 
-#  Henter data 
-
 str.dat <- strengthvolume %>% 
   select(participant, sex, exercise, include, time, sets, leg, load ) %>%
- 
-        # Filtrerer  includeerte deltakere
+
         filter(include == "incl") %>%
-        
-        # Beregner  gjennomsnittlig baseline
         mutate(time = if_else(time %in% c("pre", "session1"), "pre", time)) %>%
         group_by(time, exercise, participant, sex, sets) %>%
         summarise(load = mean(load, bna.rm = TRUE)) %>%
-        #  Velger legpress-test  og bare pre-post data
         filter(exercise == "legpress",
                 time %in% c("pre", "post")) %>%
-        # Utvider datasettet 
         pivot_wider(names_from = "time",
                     values_from = "load") %>%
-        # Beregner endings-skår
         mutate(str_change = post - pre) %>%
-        # Lagrer endrings-skår og utvider med sett
   select(participant:sets, str_change) %>%
-        pivot_wider(names_from = sets, values_from = str_change) 
+        pivot_wider(names_from = sets, values_from = str_change) %>% 
+  print()
 
   
 ```
@@ -226,8 +217,7 @@ str.dat <- strengthvolume %>%
 #| warning: FALSE
 #| message: FALSE
 #| include: FALSE
-
-# T-test på endrings-skår
+#| # T-test på endrings-skår
 
 
 t.test(str.dat$multiple, str.dat$single, paired = TRUE)
@@ -240,36 +230,6 @@ Beregningen viser at t = 2.1366, df = 29, p-value = 0.0412 og endringen i muskel
 p \<0.05.
 
 
-```{r}
-#| echo: FALSE
-#| warning: FALSE
-#| message: FALSE
-#| include: FALSE
-#| Beregner endring av styrke mellom gruppene 
-
-
-strength <- strengthvolume %>%
-  group_by(exercise) %>%
-  mutate(scaled.load = load / max(load, na.rm = TRUE)) %>%
-  group_by(participant, time, sex, sets) %>%
-  summarise(combined.load = mean(scaled.load, na.rm = TRUE)) %>%
-  ungroup() %>%
-  pivot_wider(names_from = time,
-              values_from = combined.load) %>%
-  mutate(change = (post - pre))  %>%
-  
-  filter(!is.na(post)) %>%
-  group_by(sets) %>%
-  summarise(m = mean(change),
-            sd = sd(change)) %>%
-  mutate(meansd= paste0(signif(m, 3), "(", signif(sd, 3), ")")) %>%
-  select(sets, meansd) %>%
-print()
-
-```
-
-
-
 ### Diskusjon
 
 Resultatene tyder på at tre sett med styrketrening 2-3 ganger i uken over  en 12 ukers periode gir et bedre respons både på styrke og muskelvekst sammenlignet med ett sett over en 12 ukers periode.\
@@ -279,9 +239,9 @@ Den totale treningsbelastingen i multiple-set-gruppen er høyere enn i single-se
 Totalload var altså større for (G3), men det var ingen signifikant forskjell mellom gruppene ift hypertrofi og styrke.
 En metaanalyse av @refalo_influence_2021 viser at trening med både høy og lav load ga hypertrofi, mens høy load ga større økning i styrke.
 Dette samsvarer til dels med våre funn.
-@lopesmachado2022 finner ingen dierke sammenheng mellom intensitet og volum og hypertrofi.
+@lopesmachado2022 finner ingen direkte sammenheng mellom intensitet og volum og hypertrofi.
 
-Vår studie benytter within-subject-design, hvor hver deltaker er sin egen kontroll hvilket reduserer risiko for bias.
+Studien benytter within-subject-design, hvor hver deltaker er sin egen kontroll hvilket reduserer risiko for bias.
 
 ### Konklusjon
 
